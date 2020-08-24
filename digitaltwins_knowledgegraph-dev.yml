@@ -1,0 +1,11 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: digitaltwins_knowledgegraph
+# eureka 配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:123@localhost:8761/eureka
+env: dev
