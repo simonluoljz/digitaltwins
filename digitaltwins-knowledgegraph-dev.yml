@@ -15,3 +15,5 @@ feign:
       default:
         connect-timeout: 200000
         read-timeout: 200000
+management:
+  context-path: /
